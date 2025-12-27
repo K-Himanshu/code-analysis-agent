@@ -43,7 +43,7 @@ The agent follows this loop:
 
 ```bash
 git clone https://github.com/<your-username>/code-analysis-agent.git
-cd code-analysis-agent
+cd .\code-analysis-agent\cag
 pip install -r requirements.txt
 export GEMINI_API_KEY=your_key_here
 python agent.py
